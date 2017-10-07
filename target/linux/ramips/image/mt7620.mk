@@ -260,6 +260,14 @@ define Device/microwrt
 endef
 TARGET_DEVICES += microwrt
 
+define Device/minicloudless
+  DTS := MINICLOUDLESS
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := Omnima MiniCloudless
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += minicloudless
+
 define Device/miwifi-mini
   DTS := MIWIFI-MINI
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

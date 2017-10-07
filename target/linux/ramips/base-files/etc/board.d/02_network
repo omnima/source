@@ -52,6 +52,7 @@ ramips_setup_interfaces()
 	linkits7688d | \
 	m2m|\
 	microwrt|\
+	minicloudless|\
 	mpr-a2|\
 	ncs601w|\
 	omega2 | \

@@ -29,6 +29,7 @@ get_status_led() {
 	kn_rc|\
 	kn_rf|\
 	kng_rc|\
+	minicloudless|\
 	mzk-750dhp|\
 	mzk-dp150n|\
 	mzk-w300nh2|\

@@ -304,6 +304,9 @@ ramips_board_detect() {
 	*"MiniEMBWiFi")
 		name="miniembwifi"
 		;;
+	*"MiniCloudless")
+		 name="minicloudless"
+		 ;; 
 	*"MiWiFi Mini")
 		name="miwifi-mini"
 		;;
